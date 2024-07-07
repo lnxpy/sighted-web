@@ -5,7 +5,7 @@ import HashnodeIcon from "@/components/icons/Hashnode"
 
 import { useToast } from "@/components/ui/use-toast"
 
-import { TerminalIcon, CopyIcon } from "lucide-react";
+import { CopyIcon, DollarSignIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button"
 
@@ -30,18 +30,19 @@ export default function Hero() {
           <div className="flex-1 space-y-4">
             <div className="flex justify-center">
               <Badge variant="outline"><HashnodeIcon width="13" className="mr-2" />Hashnode Hackathon</Badge>
+              <Badge className="ml-2">AI for Tomorrow</Badge>
             </div>
             <h1 className="text-4xl font-bold">Sighted helps you read</h1>
             <h1 className="text-4xl font-bold inline"><FlipWords words={words} /></h1>
             <p className="text-muted-foreground pt-3">
-              Using NLP techniques and bionic AI algorithms to enhance your reading quality.
+              Using NLP and bionic AI algorithms to enhance your reading quality.
               You can also build your own AI algorithms and serve them anywhere!
             </p>
           </div>
         </div>
       </div>
       <div className="bg-gray-50 border border-slate-300 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
-            <TerminalIcon className="h-5 w-5" />
+            <DollarSignIcon className="h-5 w-5" />
             <span>pip install sighted</span>
             <Button variant="ghost" size="icon" className="ml-auto" onClick={copyCommand}>
               <CopyIcon className="h-4 w-4" />
