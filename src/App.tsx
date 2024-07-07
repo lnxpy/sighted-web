@@ -1,10 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider"
-
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Demo from "@/components/Demo";
-import Faq from "@/components/Faq";
-import Footer from "@/components/Footer";
+import { Header, Hero, Demo, Faq, Footer } from '@/components';
 
 
 export default function App() {
