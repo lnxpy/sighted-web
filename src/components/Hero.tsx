@@ -35,8 +35,8 @@ export default function Hero() {
             <h1 className="text-4xl font-bold">Sighted helps you read</h1>
             <h1 className="text-4xl font-bold inline"><FlipWords words={words} /></h1>
             <p className="text-muted-foreground pt-3">
-              Using NLP and bionic AI algorithms to enhance your reading quality.
-              You can also build your own AI algorithms and serve them anywhere!
+              Revolutionize your reading with NLP and bionic AI algorithms.
+              An exceptional solution for <b>Dyslexia</b> and <b>ADHD</b> book enthusiasts!
             </p>
           </div>
         </div>
