@@ -1,12 +1,12 @@
 import React from "react";
 
 
-export default function bionicReading(props) {
+export default function bionicReading(props: any) {
   // Split the text into words
   const words = props.words.split(' ');
 
   // Process each word to create the bionic reading effect
-  const processedWords = words.map((word, index) => {
+  const processedWords = words.map((word: any, index: any) => {
     // Determine the split point for the word (usually half of the word length)
     const splitIndex = Math.ceil(word.length / 2);
 

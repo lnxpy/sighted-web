@@ -1,10 +1,10 @@
 import { WandSparklesIcon, LogsIcon, ListMinusIcon, EraserIcon } from "lucide-react"
 
-import { Toggle } from "@/components/ui/toggle"
+import { Toggle } from "./ui/toggle"
 
-import BionicReading from "@/utils/bionic"
+import BionicReading from "../utils/bionic"
 
-import {sample, sampleSimplified, sampleSummarized, sampleSummarizedAndSimplified} from "@/samples"
+import {sample, sampleSimplified, sampleSummarized, sampleSummarizedAndSimplified} from "../samples"
 import { useState } from "react"
 
 import TextTransition, { presets } from 'react-text-transition';

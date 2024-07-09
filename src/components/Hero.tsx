@@ -1,13 +1,13 @@
-import { Badge } from "@/components/ui/badge"
-import { FlipWords } from "@/components/ui/flip-words";
+import { Badge } from "../components/ui/badge"
+import { FlipWords } from "../components/ui/flip-words";
 
-import HashnodeIcon from "@/components/icons/Hashnode"  
+import HashnodeIcon from "./icons/Hashnode"  
 
-import { useToast } from "@/components/ui/use-toast"
+import { useToast } from "../components/ui/use-toast"
 
 import { CopyIcon, DollarSignIcon } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 
 
 export default function Hero() {

@@ -1,4 +1,4 @@
-import brand from "@/assets/img/brand.svg"
+import brand from "../assets/img/brand.svg"
 
 
 export default function Header() {
