@@ -19,10 +19,11 @@ export default function Faq() {
                 <AccordionItem value="item-2">
                 <AccordionTrigger>How does human brain deal with texts?</AccordionTrigger>
                 <AccordionContent>
-                As you read, your brain actively engages with the context of the text. As you process new words, 
-                your brain seeks connections to the main topic and relevant information. For instance, 
-                when reading "Magi.. wan.." in a Harry Potter book, your brain quickly identifies it as "Magic wand" 
-                because it uses contextual clues and prior knowledge to make sense of the text.
+                    As you read, your brain actively engages with the context of the text. As you process new words, 
+                    your brain seeks connections to the main topic and relevant information. For instance, 
+                    when reading "Magi.. wan.." in a Harry Potter book, your brain quickly identifies it as "Magic wand" 
+                    because it uses contextual clues and prior knowledge to make sense of the text. That's why all you 
+                    need is the first few letters to understand the word.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
