@@ -4,7 +4,7 @@ export default function Faq() {
     return (
         <section className="w-full py-12 md:py-24 lg:py-32">
             <div className="container flex flex-col items-center justify-center px-4 md:px-6 space-y-4">
-            <h2 className="text-3xl mb-4 font-bold tracking-tight md:text-3xl/tight">You might be <span className="text-emerald-400">wondered</span>!</h2>
+            <h2 className="text-3xl mb-4 font-bold tracking-tight md:text-3xl/tight">You might be <span className="text-emerald-400">wondered</span>..</h2>
             <Accordion type="single" collapsible className="w-full max-w-4xl">
                 <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left">How does Sighted help with Dyslexia and ADHD?</AccordionTrigger>

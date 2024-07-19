@@ -24,7 +24,7 @@ export default function bionicReading(props: any) {
 
   // Return the processed words as a single paragraph
   return (
-      <p className="mt-8 text-gray-400 dark:text-gray-300 max-w-4xl md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+      <p className="mt-8 text-gray-400 dark:text-gray-400 max-w-4xl md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
         {processedWords}
       </p>
   )

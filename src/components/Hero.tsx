@@ -7,6 +7,7 @@ import { Button } from "../components/ui/button"
 import { useTheme } from "../components/theme-provider"
 import { BackgroundBeams } from "./ui/background-beams";
 
+
 export default function Hero() {
   const words = ["Faster", "Effective", "Consistent", "Better"];
   const theme = useTheme().theme
@@ -43,7 +44,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="backdrop-blur-sm border border-slate-300 dark:border-zinc-800 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
-           <DollarSignIcon className="h-5 w-5" />
+           <DollarSignIcon className="h-5 w-5" stroke="#34D399" />
            <span>pip install <span className="dark:text-emerald-500">sighted</span></span>
            <Button variant="ghost" size="icon" className="ml-auto" onClick={copyCommand}>
              <CopyIcon className="h-4 w-4" />
