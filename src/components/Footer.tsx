@@ -3,7 +3,7 @@ import { TwitterIcon, GithubIcon, LinkedinIcon } from "lucide-react"
 
 export default function Footer() {
     return (
-        <footer className="flex items-center justify-between px-8 py-4 bg-muted">
+        <footer className="flex items-center justify-between px-8 py-4 bg-muted dark:bg-zinc-900">
             <div className="text-sm text-muted-foreground">&copy; 2023 Sighted. All rights reserved.</div>
             <div className="text-sm text-muted-foreground flex space-x-4">
             <a href="https://x.com/lnxpylnxpy" target="blank"><TwitterIcon className="h-4 w-4" /></a>

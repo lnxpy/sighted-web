@@ -1,15 +1,9 @@
 import { WandSparklesIcon, LogsIcon, ListMinusIcon, EraserIcon } from "lucide-react"
-
 import { Toggle } from "./ui/toggle"
-
 import BionicReading from "../utils/bionic"
-
 import {sample, sampleSimplified, sampleSummarized, sampleSummarizedAndSimplified} from "../samples"
 import { useState } from "react"
-
 import TextTransition, { presets } from 'react-text-transition';
-
-
 
 export default function Demo() {
 
@@ -55,7 +49,7 @@ export default function Demo() {
           <TextTransition springConfig={presets.stiff} translateValue="0">
             {operation.sighted ? 
             <BionicReading words={shownText}/> : 
-            <p className="mt-8 text-3xl text-gray-600 max-w-4xl md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="mt-8 text-3xl max-w-4xl md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               {shownText}
             </p>
             }

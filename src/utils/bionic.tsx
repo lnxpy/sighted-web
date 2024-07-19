@@ -17,14 +17,14 @@ export default function bionicReading(props: any) {
     // Return a JSX element with the bold and normal parts
     return (
       <React.Fragment key={index}>
-        <span className="font-bold">{boldPart}</span>{normalPart}{' '}
+        <span className="font-bold text-gray-800 dark:text-white">{boldPart}</span>{normalPart}{' '}
       </React.Fragment>
     );
   });
 
   // Return the processed words as a single paragraph
   return (
-      <p className="mt-8 text-gray-600 text-3xl max-w-4xl md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+      <p className="mt-8 text-3xl text-gray-400 dark:text-gray-500 max-w-4xl md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
         {processedWords}
       </p>
   )

@@ -1,6 +1,5 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "../components/ui/accordion"
 
-
 export default function Faq() {
     return (
         <section className="w-full py-12 md:py-24 lg:py-32">
@@ -8,7 +7,7 @@ export default function Faq() {
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">You might be wondered..</h2>
             <Accordion type="single" collapsible className="w-full max-w-4xl">
                 <AccordionItem value="item-1">
-                <AccordionTrigger>How does Sighted help with Dyslexia and ADHD?</AccordionTrigger>
+                <AccordionTrigger className="text-left">How does Sighted help with Dyslexia and ADHD?</AccordionTrigger>
                 <AccordionContent>
                     Sighted aids individuals with dyslexia by highlighting the first few letters of words, 
                     enhancing pattern recognition and reducing the cognitive effort needed for word decoding. 
@@ -17,7 +16,7 @@ export default function Faq() {
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
-                <AccordionTrigger>How does human brain deal with texts?</AccordionTrigger>
+                <AccordionTrigger className="text-left">How does human brain deal with texts?</AccordionTrigger>
                 <AccordionContent>
                     As you read, your brain actively engages with the context of the text. As you process new words, 
                     your brain seeks connections to the main topic and relevant information. For instance, 
@@ -27,22 +26,22 @@ export default function Faq() {
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
-                <AccordionTrigger>How does Sighted decide which letters should be bolded?</AccordionTrigger>
+                <AccordionTrigger className="text-left">How does Sighted decide which letters should be bolded?</AccordionTrigger>
                 <AccordionContent>
-                    Sighted uses an NLP model to evaluate each word by a give importance rate. By using that rate, 
+                    Sighted uses an NLP model to evaluate each word by a given importance rate. By using that rate, 
                     effected words will be highlighted out and bolded in the further stages.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
-                <AccordionTrigger>How is Sighted served?</AccordionTrigger>
+                <AccordionTrigger className="text-left">How is Sighted served?</AccordionTrigger>
                 <AccordionContent>
-                Sighted is available as an installable Python package, allowing you to integrate it into any web 
-                service. You can even design API endpoints that utilize Sighted, enabling a fully customized 
-                implementation.
+                    Sighted is available as an installable Python package, allowing you to integrate it into any web 
+                    service. You can even design API endpoints that utilize Sighted, enabling a fully customized 
+                    implementation.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
-                <AccordionTrigger>How much does Sighted cost?</AccordionTrigger>
+                <AccordionTrigger className="text-left">How much does Sighted cost?</AccordionTrigger>
                 <AccordionContent>
                     It's free and open-source.
                 </AccordionContent>
