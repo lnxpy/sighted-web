@@ -14,7 +14,7 @@ export default function Hero() {
   function copyCommand() {
     navigator.clipboard.writeText("pip install sighted")
     toast({
-      description: `Copied to the clipboard! ✅`,
+      description: `Copied to the clipboard!`,
     })
   }
 
@@ -27,11 +27,11 @@ export default function Hero() {
             <Badge variant="outline" className="bg-white dark:bg-black"><HashnodeIcon fill={theme === "dark" ? "white" : "black"} width="13" className="mr-2" />Hashnode Hackathon</Badge>
             <Badge className="ml-2">AI for Tomorrow</Badge>
           </div>
-          <h1 className="text-4xl font-bold">Sighted helps you read</h1>
+          <h1 className="text-4xl font-bold">Sighted <span className="text-emerald-400">helps</span> you read</h1>
           <h1 className="text-4xl font-bold inline"><FlipWords words={words} /></h1>
             <p className="text-muted-foreground md:text-xl lg:text-base/relaxed">
               Revolutionize your reading with NLP and bionic AI algorithms.
-              An exceptional solution for <b>Dyslexia</b> and <b>ADHD</b> book enthusiasts! 💪 🧠
+              An exceptional solution for Dyslexia and ADHD book enthusiasts! 💪🧠
             </p>
             <div>
               <Button variant="default" className="mt-3">
@@ -42,9 +42,9 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          <div className="bg-gray-50 dark:bg-zinc-950 border border-slate-300 dark:border-zinc-700 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
+          <div className="bg-gray-50 dark:bg-zinc-950 border border-slate-300 dark:border-zinc-800 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
            <DollarSignIcon className="h-5 w-5" />
-           <span>pip <span className="text-blue-600">install</span> sighted</span>
+           <span>pip install <span className="dark:text-emerald-500">sighted</span></span>
            <Button variant="ghost" size="icon" className="ml-auto" onClick={copyCommand}>
              <CopyIcon className="h-4 w-4" />
                <span className="sr-only">Copy to clipboard</span>

@@ -27,21 +27,21 @@ export default function Demo() {
   return (
   <section className="w-full py-12 md:py-24 lg:py-32 min-h-screen">
       <div className="container flex flex-col items-center justify-center px-4 md:px-6">
-        <h1 className="text-4xl font-bold mb-8">Your Brain Reads Faster Than Your Eyes!</h1>
+        <h1 className="text-4xl font-bold mb-8">Your brain reads <span className="text-emerald-400">faster</span> than your eyes!</h1>
         <div className="flex flex-wrap items-center justify-center gap-4 md:flex-nowrap shadow-sm rounded-lg p-2 m-4">
-          <Toggle size="lg" id="sighted" variant="outline" aria-label="Toggle bold" className="gap-2 cursor-pointer" pressed={operation.sighted} onPressedChange={() => setOperation({...operation, "sighted": !operation.sighted})}>
+          <Toggle size="lg" id="sighted" variant="outline" aria-label="Toggle bold" className="gap-2" pressed={operation.sighted} onPressedChange={() => setOperation({...operation, "sighted": !operation.sighted})}>
             <LogsIcon className="h-4 w-4" />
             <span>Sighted</span>
           </Toggle>
-          <Toggle size="lg" id="simplify" aria-label="Toggle italic" className="gap-2 cursor-pointer" pressed={operation.simplify} onPressedChange={() => setOperation({...operation, "simplify": !operation.simplify})}>
+          <Toggle size="lg" id="simplify" aria-label="Toggle italic" className="gap-2" pressed={operation.simplify} onPressedChange={() => setOperation({...operation, "simplify": !operation.simplify})}>
             <WandSparklesIcon className="h-4 w-4" />
             <span>Simplify</span>
           </Toggle>
-          <Toggle size="lg" id="summarize" aria-label="Toggle underline" className="gap-2 cursor-pointer" pressed={operation.summarize} onPressedChange={() => setOperation({...operation, "summarize": !operation.summarize})}>
+          <Toggle size="lg" id="summarize" aria-label="Toggle underline" className="gap-2" pressed={operation.summarize} onPressedChange={() => setOperation({...operation, "summarize": !operation.summarize})}>
             <ListMinusIcon className="h-4 w-4" />
             <span>Summarize</span>
           </Toggle>
-          <Toggle disabled size="lg" aria-label="Toggle strikethrough" className="gap-2 cursor-pointer">
+          <Toggle disabled size="lg" aria-label="Toggle strikethrough" className="gap-2">
             <EraserIcon className="h-4 w-4" />
             <span>Correct</span>
           </Toggle>
