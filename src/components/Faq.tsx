@@ -4,7 +4,7 @@ export default function Faq() {
     return (
         <section className="w-full py-12 md:py-24 lg:py-32">
             <div className="container flex flex-col items-center justify-center px-4 md:px-6 space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight md:text-3xl/tight">You might be wondered..</h2>
+            <h2 className="text-3xl mb-4 font-bold tracking-tight md:text-3xl/tight">You might be <span className="text-emerald-400">wondered</span>!</h2>
             <Accordion type="single" collapsible className="w-full max-w-4xl">
                 <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left">How does Sighted help with Dyslexia and ADHD?</AccordionTrigger>
@@ -28,14 +28,14 @@ export default function Faq() {
                 <AccordionItem value="item-3">
                 <AccordionTrigger className="text-left">How does Sighted decide which letters should be bolded?</AccordionTrigger>
                 <AccordionContent>
-                    Sighted uses an NLP model to evaluate each word by a given importance rate. By using that rate, 
-                    effected words will be highlighted out and bolded in the further stages.
+                    Sighted uses an NLP model to evaluate each word either grammatically or by importance rate. By using that rate, 
+                    selected letters will be highlighted out and bolded in the further stages.
                 </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
                 <AccordionTrigger className="text-left">How is Sighted served?</AccordionTrigger>
                 <AccordionContent>
-                    Sighted is available as an installable Python package, allowing you to integrate it into any web 
+                    Sighted is <a href="https://pypi.org/project/sighted" className="underline" target="blank">available as an installable Python package</a>, allowing you to integrate it into any web 
                     service. You can even design API endpoints that utilize Sighted, enabling a fully customized 
                     implementation.
                 </AccordionContent>

@@ -8,7 +8,7 @@ import { useTheme } from "../components/theme-provider"
 import { BackgroundBeams } from "./ui/background-beams";
 
 export default function Hero() {
-  const words = ["Consistent", "Faster", "Effective"];
+  const words = ["Faster", "Effective", "Consistent", "Better"];
   const theme = useTheme().theme
   const { toast } = useToast()
 
@@ -21,7 +21,6 @@ export default function Hero() {
 
   return (
   <section className="flex flex-col items-center justify-center h-screen w-full">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center"></div>
         <div className="container grid max-w-7xl grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-6 z-10">
           <div className="space-y-4">
           <div className="flex justify-center">
@@ -43,7 +42,7 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          <div className="bg-gray-50 dark:bg-zinc-950 border border-slate-300 dark:border-zinc-800 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
+          <div className="backdrop-blur-sm border border-slate-300 dark:border-zinc-900 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
            <DollarSignIcon className="h-5 w-5" />
            <span>pip install <span className="dark:text-emerald-500">sighted</span></span>
            <Button variant="ghost" size="icon" className="ml-auto" onClick={copyCommand}>
