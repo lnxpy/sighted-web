@@ -15,7 +15,7 @@ export default function Header() {
           <img src={theme === "dark" ? brand_dark : brand} height={80} width={80} className="ml-12" alt="Sighted" />
         </div>
         <div className="flex items-center gap-4">
-          <Button variant="link" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+          <Button variant="ghost" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
             {theme === "dark" ? 
               <SunIcon className="h-4 w-4" />
               :

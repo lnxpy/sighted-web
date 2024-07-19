@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 export default function App() {
 
   return (
-    <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="theme">
       <Header />
       <Hero />
       <Demo />
