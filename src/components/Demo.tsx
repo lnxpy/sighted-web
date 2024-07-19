@@ -27,7 +27,7 @@ export default function Demo() {
   return (
   <section className="w-full py-12 md:py-24 lg:py-32 min-h-screen">
       <div className="container flex flex-col items-center justify-center px-4 md:px-6">
-        <h1 className="text-4xl font-bold mb-8">Your brain reads <span className="text-emerald-400">faster</span> than your eyes!</h1>
+        <h1 className="text-4xl font-bold mb-8 tracking-tight">Your brain reads <span className="text-emerald-400">faster</span> than your eyes!</h1>
         <div className="flex flex-wrap items-center justify-center gap-4 md:flex-nowrap shadow-sm rounded-lg p-2 m-4">
           <Toggle size="lg" id="sighted" variant="outline" aria-label="Toggle bold" className="gap-2" pressed={operation.sighted} onPressedChange={() => setOperation({...operation, "sighted": !operation.sighted})}>
             <LogsIcon className="h-4 w-4" />

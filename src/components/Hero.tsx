@@ -42,7 +42,7 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          <div className="backdrop-blur-sm border border-slate-300 dark:border-zinc-900 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
+          <div className="backdrop-blur-sm border border-slate-300 dark:border-zinc-800 rounded-md px-4 py-2 text-muted-foreground font-mono flex items-center gap-4">
            <DollarSignIcon className="h-5 w-5" />
            <span>pip install <span className="dark:text-emerald-500">sighted</span></span>
            <Button variant="ghost" size="icon" className="ml-auto" onClick={copyCommand}>
