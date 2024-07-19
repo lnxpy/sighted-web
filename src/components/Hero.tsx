@@ -5,6 +5,7 @@ import { useToast } from "../components/ui/use-toast"
 import { CopyIcon, DollarSignIcon } from "lucide-react";
 import { Button } from "../components/ui/button"
 import { useTheme } from "../components/theme-provider"
+import { BackgroundBeams } from "./ui/background-beams";
 
 export default function Hero() {
   const words = ["Consistent", "Faster", "Effective"];
@@ -19,8 +20,8 @@ export default function Hero() {
   }
 
   return (
-  <section className="flex flex-col items-center justify-center h-screen w-full dark:bg-black bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+  <section className="flex flex-col items-center justify-center h-screen w-full">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center"></div>
         <div className="container grid max-w-7xl grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-6 z-10">
           <div className="space-y-4">
           <div className="flex justify-center">
@@ -51,6 +52,7 @@ export default function Hero() {
            </Button>
          </div>
         </div>
+        <BackgroundBeams/>
       </section>
   )
 }
