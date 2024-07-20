@@ -12,15 +12,15 @@ export default function Features() {
                   <CircleCheckBig className="h-4 w-4" stroke="#34D399" />
                   Style and customize any part-of-speech.
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex gap-2">
                   <CircleCheckBig className="h-4 w-4" stroke="#34D399" />
                   Render based on the custom templates that you define.
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex gap-2">
                   <CircleCheckBig className="h-4 w-4" stroke="#34D399" />
                   Set thresholds for fixations and saccades.
                 </li>
-                <li className="flex items-center gap-2">
+                <li className="flex gap-2">
                   <CircleCheckBig className="h-4 w-4" stroke="#34D399" />
                   Render based on letters or syllables.
                 </li>
