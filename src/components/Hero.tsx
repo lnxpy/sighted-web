@@ -47,7 +47,7 @@ export default function Hero() {
 					<div>
 						<Button variant="default" className="mt-3">
 							<a
-								href="https://github.com/lnxpy/sighted/tree/main/examples"
+								href="https://github.com/lnxpy/sighted?tab=readme-ov-file#usage"
 								target="blank"
 							>
 								See example
