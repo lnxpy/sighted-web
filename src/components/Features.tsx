@@ -22,7 +22,7 @@ export default function Features() {
 							<CircleCheckBig className="h-4 w-4" stroke="#34D399" />
 							Set thresholds for fixations and saccades.
 						</li>
-						<li className="flex items-centers gap-2">
+						<li className="flex items-center gap-2">
 							<CircleCheckBig className="h-4 w-4" stroke="#34D399" />
 							Render based on letters or syllables.
 						</li>
