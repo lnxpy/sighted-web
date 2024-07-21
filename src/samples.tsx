@@ -34,7 +34,7 @@ it’s unclear if it works well for all languages and reading styles. There are 
 concerns about whether people might get too used to this method and what effects it 
 might have on long-term reading skills and mental health. More in-depth studies are 
 necessary to determine its overall impact.
-`
+`;
 
 export const sampleSummarized = `
 Bionic Reading is a new technique that highlights the first few letters of words to 
@@ -43,7 +43,7 @@ recognition. While it aims to reduce mental effort and speed up reading, its
 effectiveness lacks sufficient scientific proof, and further research is needed to 
 understand its impact across different languages and long-term effects on reading 
 skills and mental health.
-`
+`;
 
 export const sampleSummarizedAndSimplified = `
 Bionic Reading is a technique that highlights the first few letters of words to help 
@@ -52,4 +52,4 @@ recognition. It aims to reduce mental effort and speed up reading, but its effec
 lacks sufficient scientific proof. More research is needed to confirm its benefits, 
 assess its impact across different languages and reading styles, and understand its 
 long-term effects on reading skills and mental health.
-`
+`;
