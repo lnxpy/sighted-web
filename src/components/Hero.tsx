@@ -55,7 +55,7 @@ export default function Hero() {
 						</Button>
 						<Button variant="outline" className="ml-2">
 							<a
-								href="https://blog.imsadra.me/sighted-read-faster-comprehend-better-with-ai"
+								href="https://blog.imsadra.dev/sighted-read-faster-comprehend-better-with-ai"
 								target="blank"
 							>
 								Read article
